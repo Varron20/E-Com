@@ -1,0 +1,296 @@
+/* styles.css */
+
+/* Reset default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic layout styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+  }
+  
+  header, main, footer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  main {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Additional styling for product listings, cart, and other sections can be added here */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  /* styles.css */
+
+/* ... Existing styles ... */
+
+#products {
+    margin-top: 20px;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card p {
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+/* styles.css */
+
+/* ... Existing styles ... */
+
+.product-card img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card img:hover {
+    transform: scale(1.07);
+  }
+    h3 {color: #000;}
+    p {color: #000;}
+    a {
+        text-decoration: none;
+      }
+      /* styles.css */
+
+/* ... Existing styles ... */
+
+.product-card img {
+    width: 100%;
+    height: auto;
+  }
+  /* styles.css */
+
+/* ... Existing styles ... */
+
+#cart {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  #cart h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #cart-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #cart-items li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  #cart-total {
+    margin-top: 10px;
+    text-align: right;
+  }
+  
+  #cart-total span {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  #checkout-btn {
+    padding: 8px 12px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #checkout-btn:hover {
+    background-color: #555;
+  }
+  /* styles.css */
+
+/* Your existing styles */
+
+/* styles.css */
+
+#checkout-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#checkout-form h2 {
+  margin-bottom: 20px;
+}
+
+#checkout-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#checkout-form input,
+#checkout-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#checkout-form button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#checkout-form button[type="submit"]:hover {
+  background-color: #555;
+}
+.contact-section {
+  display: flex;
+  align-items: center;
+}
+
+.contact-section .connect-text {
+  margin-right: 10px;
+}
+
+.contact-section ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-section ul li {
+  margin-right: 10px;
+}
+
+.contact-section ul li:last-child {
+  margin-right: 0;
+}
+.contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 40px; /* Adjust the height as needed */
+}
+
+.contact-section .connect-text {
+  margin-right: 10px;
+}
+
+.contact-section ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-section ul li {
+  margin-right: 10px;
+}
+
+.contact-section ul li:last-child {
+  margin-right: 0;
+}
+
+.logo {
+  width: 30px; /* Adjust the width as desired */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+
+
+
